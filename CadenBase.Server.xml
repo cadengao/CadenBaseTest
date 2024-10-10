@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CadenBase.Server</name>
+    </assembly>
+    <members>
+        <member name="M:CadenBase.Server.Apis.WeatherForecastApi.GetForecast(Microsoft.Extensions.Logging.ILoggerFactory)">
+            <summary>
+            Creates a make believe weather forecast for the next 5 days.
+            </summary>
+            <param name="loggerFactory"></param>
+            <returns>A fake 5 day forecast</returns>
+            <remarks>A 5 Day Forecast</remarks>
+            <response code="200">Weather Forecast returned</response>
+        </member>
+        <member name="T:CadenBase.DataContracts.WeatherForecast">
+            <summary>
+            A Weather Forecast for a specific date
+            </summary>
+            <param name="Date">Gets the Date of the Forecast.</param>
+            <param name="TemperatureC">Gets the Forecast Temperature in Celsius.</param>
+            <param name="Summary">Get a description of how the weather will feel.</param>
+        </member>
+        <member name="M:CadenBase.DataContracts.WeatherForecast.#ctor(System.DateOnly,System.Double,System.String)">
+            <summary>
+            A Weather Forecast for a specific date
+            </summary>
+            <param name="Date">Gets the Date of the Forecast.</param>
+            <param name="TemperatureC">Gets the Forecast Temperature in Celsius.</param>
+            <param name="Summary">Get a description of how the weather will feel.</param>
+        </member>
+        <member name="P:CadenBase.DataContracts.WeatherForecast.Date">
+            <summary>Gets the Date of the Forecast.</summary>
+        </member>
+        <member name="P:CadenBase.DataContracts.WeatherForecast.TemperatureC">
+            <summary>Gets the Forecast Temperature in Celsius.</summary>
+        </member>
+        <member name="P:CadenBase.DataContracts.WeatherForecast.Summary">
+            <summary>Get a description of how the weather will feel.</summary>
+        </member>
+        <member name="P:CadenBase.DataContracts.WeatherForecast.TemperatureF">
+            <summary>
+            Gets the Forecast Temperature in Fahrenheit
+            </summary>
+        </member>
+    </members>
+</doc>

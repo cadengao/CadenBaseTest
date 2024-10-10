@@ -1,0 +1,32 @@
+{
+  "background_color": "#ffffff",
+  "description": "CadenBase",
+  "display": "standalone",
+  "name": "CadenBase",
+  "short_name": "CadenBase",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "package_50b5ddb7b30eca7fc6d9e006a5df71a65d055ffd/icon-16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "package_50b5ddb7b30eca7fc6d9e006a5df71a65d055ffd/icon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "package_50b5ddb7b30eca7fc6d9e006a5df71a65d055ffd/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "package_50b5ddb7b30eca7fc6d9e006a5df71a65d055ffd/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
